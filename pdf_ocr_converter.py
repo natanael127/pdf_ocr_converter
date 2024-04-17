@@ -1,10 +1,6 @@
 import ocrmypdf
-import tempfile
 import os
-import shutil
 import time
-import sys
-
 
 def clear_screen():
     if os.name == "nt":
@@ -31,7 +27,6 @@ def main():
             print("Conversão realizada com sucesso!")
         else:
             print(f"Erro ao converter o arquivo. Código de erro: {result}")
-        sys.stdout.flush()
         input("\nPressione ENTER para continuar...")
 
 if __name__ == "__main__":
