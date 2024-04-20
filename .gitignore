@@ -33,7 +33,6 @@ myenv/
 # Normalmente os arquivos e pastas relacionados ao PyInstaller podem ser ignorados
 # exceto os scripts de entrada e quaisquer outros arquivos explicitamente necessários.
 *.manifest
-*.spec
 dist/
 build/
 __pycache__/

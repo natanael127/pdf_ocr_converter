@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ### Comando
 Para compilar este projeto em um executável standalone, utilize o PyInstaller:
 ```bash
-pyinstaller --onefile --hidden-import PIL my_script.py
+pyinstaller pdf_ocr_converter.spec
 ```
 
 ### Distribuição
