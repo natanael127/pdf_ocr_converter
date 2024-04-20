@@ -13,6 +13,8 @@ def main():
     while True:
         clear_screen()
         print("CONVERSOR DE ARQUIVOS PDF PARA O MODELO OCR")
+        print("Desenvolvido por natanael.souza.figueiredo@gmail.com")
+        print("Versão 1.0.0")
         print()
         input_pdf = input("Arraste e solte o arquivo PDF nesta janela e tecle ENTER:\n")
         input_pdf = input_pdf.strip().replace('"', '')      # Remove spaces and quotes from the file path
